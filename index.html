@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="diaryEntryForm">
+        <div>
+            <label for="writingDateDateInput">Tanggal: </label>
+            <input type="date" id="writingDateDateInput">
+        </div>
+        <div>
+            <label for="writingTimeTimeInput">Waktu: </label>
+            <input type="time" id="writingTimeTimeInput">
+        </div>
+        <div>
+            <label for="contentTextArea">Konten: </label>
+            <textarea id="contentTextArea"></textarea>
+        </div>
+        <input type="submit" value="Simpan" id="submitSubmitInput">
+    </form>
+    <div id="entriesDiv"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
